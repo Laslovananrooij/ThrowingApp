@@ -321,7 +321,7 @@ scene.add(field);
 
 
 // CREATING THE FRISBEE OBJECT
-const { frisbeeGroup, frisbee,updateLogoTexture } = createFrisbee('./textures/disc design led 2024 purple 2.jpg');
+const { frisbeeGroup, frisbee,updateLogoTexture } = createFrisbee('/textures/disc design led 2024 purple 2.jpg');
 scene.add(frisbeeGroup);
 
 // Handle file input

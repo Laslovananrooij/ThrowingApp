@@ -121,9 +121,9 @@ export function createFrisbee(texturePath = null) {
 export function createGroundPlane() {
   const loader = new THREE.TextureLoader();
 
-  const color = loader.load('./textures/grass_color.png');
-  const normal = loader.load('./textures/grass_normal.png');
-  const rough = loader.load('./textures/grass_roughness.png');
+  const color = loader.load('/textures/grass_color.png');
+  const normal = loader.load('/textures/grass_normal.png');
+  const rough = loader.load('/textures/grass_roughness.png');
 
   [color, normal, rough].forEach(tex => {
     tex.wrapS = tex.wrapT = THREE.RepeatWrapping;
