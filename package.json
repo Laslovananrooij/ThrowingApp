@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mathjs": "^14.4.0",
+    "three": "^0.175.0",
+    "three.meshline": "^1.4.0"
+  },
+  "devDependencies": {
+    "vite": "^6.3.2"
+  }
+}
